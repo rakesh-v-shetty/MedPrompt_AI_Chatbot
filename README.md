@@ -1,4 +1,4 @@
-# MedPrompt AI Chatbot: Advanced Medical Assistant ✨🩺
+# MedPrompt AI Chatbot: Advanced Medical Assistant 🩺
 
 MedPrompt AI is an innovative medical assistant chatbot engineered to deliver **accurate, empathetic, and comprehensive information** based on a robust medical knowledge base. It harnesses the power of cutting-edge large language models (LLMs) and an advanced Retrieval-Augmented Generation (RAG) system, designed to be your intelligent companion for medical inquiries.
 
