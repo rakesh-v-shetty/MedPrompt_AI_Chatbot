@@ -49,7 +49,15 @@ GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 MISTRAL_API_KEY=YOUR_MISTRAL_API_KEY
 ```
 
-### 2\. Set Up Pre-processed Data 📚
+### 2\. Dataset Information 📚
+
+The MedPrompt AI Chatbot relies on a dataset of medical textbooks and information for its knowledge base. This project uses data that can be sourced from:
+
+  * **Medical Textbooks:** Text files from a designated directory (e.g., `Medical_Textbooks` on Google Drive) are processed to create the knowledge base.
+  * **MedQA-USMLE Dataset:** A relevant dataset that can be used or referenced is available on Kaggle:
+    [MedQA-USMLE Dataset on Kaggle](https://www.kaggle.com/datasets/moaaztameer/medqa-usmle)
+
+### 3\. Set Up Pre-processed Data 🗃️
 
 The chatbot relies on pre-processed medical text chunks and a FAISS index for its RAG capabilities. You have two convenient options to obtain these:
 
@@ -73,7 +81,7 @@ If you prefer to generate the data yourself, you can run the `model.ipynb` noteb
 
 Ensure these generated files are then accessible to your `app.py` (e.g., by placing them in a `medprompt_ai_data` folder in your project directory).
 
-### 3\. Install Dependencies 📦
+### 4\. Install Dependencies 📦
 
 You can install all the required Python packages using `pip`.
 
@@ -118,7 +126,7 @@ It's highly recommended to install dependencies within a virtual environment. Th
     ```
     Once installed, you can run your application. To exit the virtual environment, simply type `deactivate`.
 
-### 4\. Run the Application ▶️
+### 5\. Run the Application ▶️
 
 Once you have set up your API keys and the data files, you can launch the Flask application:
 
