@@ -1,0 +1,7 @@
+Link- https://drive.google.com/drive/folders/1qzZlyx77mZ5Dq64Dwgz_7GUkgqQMsyg-?usp=drive_link
+
+Get ".env" file from "env.zip"
+
+Get dataset from the drive link or Kaggle- "https://www.kaggle.com/datasets/moaaztameer/medqa-usmle"
+
+Get "medical_faiss_index.bin" and "medical_text_chunks.pkl" from drive link in the folder "medprompt_ai_data" or run "model.ipynb" on Google Colab using T4 GPU
