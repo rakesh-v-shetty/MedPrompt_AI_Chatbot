@@ -75,11 +75,48 @@ Ensure these generated files are then accessible to your `app.py` (e.g., by plac
 
 ### 3\. Install Dependencies 📦
 
-Install all the required Python packages by running the following command in your terminal from the project's root directory:
+You can install all the required Python packages using `pip`.
+
+#### Method 1: Using `requirements.txt` (Standard)
+
+If you have a `requirements.txt` file (which lists all project dependencies), simply run:
 
 ```bash
 pip install -r requirements.txt
 ```
+
+#### Method 2: Installing Directly via `pip` (Alternate)
+
+Alternatively, you can install each core dependency by listing them in a single `pip install` command:
+
+```bash
+pip install flask python-dotenv google-generativeai sentence-transformers faiss-cpu nltk numpy requests scipy
+```
+
+*Note: `spicy` from `model.ipynb` is assumed to be a typo for `scipy`.*
+
+#### Method 3: Using a Virtual Environment (Recommended Best Practice) 🐍
+
+It's highly recommended to install dependencies within a virtual environment. This isolates your project's dependencies, preventing conflicts with other Python projects on your system.
+
+1.  **Create a virtual environment:**
+    ```bash
+    python -m venv venv
+    ```
+2.  **Activate the virtual environment:**
+      * On macOS/Linux:
+        ```bash
+        source venv/bin/activate
+        ```
+      * On Windows:
+        ```bash
+        .\venv\Scripts\activate
+        ```
+3.  **Install the dependencies within the activated environment:**
+    ```bash
+    pip install flask python-dotenv google-generativeai sentence-transformers faiss-cpu nltk numpy requests scipy
+    ```
+    Once installed, you can run your application. To exit the virtual environment, simply type `deactivate`.
 
 ### 4\. Run the Application ▶️
 
