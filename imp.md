@@ -1,11 +1,3 @@
-Gemini API- AIzaSyDSQc5d5zPd2IXP5kyGF5MNfcACV8JAJHc
-
-
-
-Mistral API- WIegDwReEUsnq5lTqxBQHiWT5MNhiRJY
-
-
-
 Question- What are the symptoms of viral fever?
 
 
