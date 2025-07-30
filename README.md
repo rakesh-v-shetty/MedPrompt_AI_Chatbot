@@ -1,5 +1,14 @@
 # MedPrompt AI Chatbot: Advanced Medical Assistant 🩺
 
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg?logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-Web%20Framework-black.svg?logo=flask&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-Styling-38B2AC.svg?logo=tailwind-css&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google%20Gemini-1.5%20Flash-4285F4.svg?logo=google-gemini&logoColor=white)
+![Mistral AI](https://img.shields.io/badge/Mistral%20AI-LLM-ff7e1a.svg)
+![FAISS](https://img.shields.io/badge/FAISS-Vector%20Search-blue.svg)
+![Sentence Transformers](https://img.shields.io/badge/Sentence%20Transformers-Embeddings-purple.svg)
+![NLTK](https://img.shields.io/badge/NLTK-NLP-blue.svg)
+
 MedPrompt AI is an innovative medical assistant chatbot engineered to deliver **accurate, empathetic, and comprehensive information** based on a robust medical knowledge base. It harnesses the power of cutting-edge large language models (LLMs) and an advanced Retrieval-Augmented Generation (RAG) system, designed to be your intelligent companion for medical inquiries.
 
 -----
